@@ -1,0 +1,34 @@
+# === Python Environment ===
+__pycache__/
+*.py[cod]
+*$py.class
+crowd_venv/
+env/
+.venv/
+.env/
+
+# === AI Models & Weights ===
+# Do not upload large model weights to GitHub
+*.pt
+*.onnx
+*.weights
+
+# === Surveillance Project Outputs ===
+# These are generated during execution and should stay local
+output_surveillance.mp4
+density_plot.png
+scene_structure_edges.jpg
+overcrowded_alert.wav
+
+# === Media Files ===
+# Large video files should not be tracked by Git
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# === IDE & OS Files ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
